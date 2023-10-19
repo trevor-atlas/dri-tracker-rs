@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: Lexend;
+  line-height: 1.6;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #19191c;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+#root {
+  padding: 1rem 0;
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: calc(10px + 1vmin);
+}
+
+textarea {
+  width: 100%;
+  min-height: 100px;
+}
+
+button {
+  border-radius: 6px;
+  border: 2px solid transparent;
+  padding: 0.25rem .5rem;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #0d3282;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  outline: none;
+}
+
+button:hover {
+  border-color: rgba(255,255,255, .2);
+}
+
+button:focus,
+button:focus-visible {
+  border-color: rgba(255,255,255, .3);
+}
+
+textarea {
+  padding: 0;
+  margin: 0;
+  border: 1px solid rgba(0,0,0, .2);
+  outline: none;
+  display: block;
+  border-radius: 16px;
+}
+
+textarea::-webkit-resizer {
+  border-width: 12px;
+  border-style: solid;
+  border-color: transparent rgba(255,255,255, .2) rgba(255,255,255, .2) transparent;
+  border-bottom-right-radius: 4px;
+}
+
+.logo-title {
+  text-shadow: -.01em .01em #83899b,
+-.015em .015em #83899b,
+-.02em .02em #83899b,
+-.025em .025em #83899b,
+-.03em .03em #83899b,
+-.035em .035em #686d7d,
+-.04em .04em #686d7d,
+-.045em .045em #686d7d;
+}
+
+.logo-subtext {
+  background-image: linear-gradient(
+  95deg,
+  hsl(31deg 77% 52%) 0%,
+  hsl(33deg 81% 52%) 11%,
+  hsl(36deg 85% 52%) 22%,
+  hsl(39deg 89% 52%) 33%,
+  hsl(42deg 93% 52%) 44%,
+  hsl(44deg 95% 51%) 56%,
+  hsl(47deg 98% 50%) 67%,
+  hsl(50deg 100% 50%) 78%,
+  hsl(52deg 100% 50%) 89%,
+  hsl(55deg 100% 50%) 100%
+);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.previous {
+  /* transform-style: preserve-3d; */
+  /* transform: skew(-26deg); */
+}
+
+
+.upcoming {
+  /* transform-style: preserve-3d; */
+  /* transform: skew(26deg); */
+}
