@@ -53,6 +53,11 @@ button {
   outline: none;
 }
 
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 button:hover {
   border-color: rgba(255,255,255, .2);
 }

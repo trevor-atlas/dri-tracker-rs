@@ -20,3 +20,6 @@ chrono = "0.4"
 version = "0.2.10"
 features = ["js"]
 
+[profile.release]
+lto = true
+opt-level = 's'
