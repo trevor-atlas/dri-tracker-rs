@@ -13,7 +13,7 @@ pub fn Root() -> impl IntoView {
         <Link rel="shortcut icon" type_="image/ico" href="/favicon.ico"/>
         <Router>
             <Routes>
-                <Route path="" view=  move || view! { <App/> }/>
+                <Route path="/dri-tracker-rs" view=  move || view! { <App/> }/>
             </Routes>
         </Router>
     }

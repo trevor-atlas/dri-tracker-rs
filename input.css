@@ -99,12 +99,9 @@ textarea::-webkit-resizer {
 }
 
 .previous {
-  /* transform-style: preserve-3d; */
-  /* transform: skew(-26deg); */
 }
 
 
 .upcoming {
-  /* transform-style: preserve-3d; */
-  /* transform: skew(26deg); */
+
 }
