@@ -6,7 +6,7 @@ Accessible at
 https://trevor-atlas.github.io/dri-tracker-rs/
 
 ## FAQ
-Wwhat does DRI stand for?
+What does DRI stand for?
 Directly Responsible Individual (who is running the thing)
 
 
